@@ -2,21 +2,44 @@
 ## I. Welcome
 * Introduction
 * Contact Information
-## II. Stack or Queue _(pick one)_
+## II. Stack
 * Introduction
-* ... _(fill in with details)_
+  * LIFO (Last In, First Out) principle
+* Operations
+  * Push
+  * Pop
+  * Peek
 * Efficiency of common operations
 * Example
 * Problem to Solve
-## III. Set or Linked List _(pick one)_
+## III. Linked List
 * Introduction
-* ... _(fill in with details)_
+* Structure
+  * Node
+    * Data
+    * Next
+    * Previous
+  * Head
+  * Tail
+* Operations
+  * Insertion
+  * Deletion
+  * Traversal
 * Efficiency of common operations
 * Example
 * Problem to Solve
 ## IV. Tree
 * Introduction
-* ... _(fill in with details)_
+* Structure
+  * Node
+    * Left Child
+    * Right Child
+  * Root
+* Importance of balancing
+* Operations
+  * Insertion
+  * Deletion
+  * Search
 * Efficiency of common operations
 * Example
 * Problem to Solve
