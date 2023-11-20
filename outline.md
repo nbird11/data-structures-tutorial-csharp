@@ -10,6 +10,7 @@
   * Pop
   * Peek
 * Efficiency of common operations
+* Benefits/Uses
 * Example
 * Problem to Solve
 ## III. Linked List
@@ -26,6 +27,7 @@
   * Deletion
   * Traversal
 * Efficiency of common operations
+* Benefits/Uses
 * Example
 * Problem to Solve
 ## IV. Tree
@@ -41,5 +43,6 @@
   * Deletion
   * Search
 * Efficiency of common operations
+* Benefits/Uses
 * Example
 * Problem to Solve
