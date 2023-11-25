@@ -1,2 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace ds1_solution;
+
+class MatchingParentheses {
+    public static bool CheckBalance(string line) {
+        var stack = new Stack<char>();
+        foreach (var item in line) {
+            if (item is '(') {
+                stack.Push(item);
+            }
+            else if (item is ')') {
+                if (stack.Count == 0 || stack.Pop() != '(')
+                    return false;
+            }
+        }
+        return stack.Count == 0;
+    }
+}
