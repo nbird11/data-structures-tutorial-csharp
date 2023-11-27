@@ -4,7 +4,7 @@ internal static class Solution
 {
     private static int EvaluateExpression(string expression)
     {
-        Stack<int> stack = new Stack<int>();
+        var stack = new Stack<int>();
 
         foreach (char c in expression)
         {
