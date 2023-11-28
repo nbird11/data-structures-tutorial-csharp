@@ -2,9 +2,9 @@
 
 ## Introduction
 
-In computer science, a stack is a fundamental data structure that follows the Last In, First Out (LIFO) principle.
-This means that the last element added to the stack is the first one to be removed. Imagine a stack of plates where you
-always add a new plate to the top and remove the topmost plate when you need one – that's the essence of a stack.
+Imagine a stack of plates where you always add a new plate to the top and remove the topmost plate when you need one –
+that's the essence of a stack. In computer science, a stack is a fundamental data structure that follows the Last In,
+First Out (LIFO) principle. This means that the last element added to the stack is the first one to be removed.
 
 ## Operations
 
@@ -40,35 +40,33 @@ retrieval. Some examples of easy reversal that would benefit from the use of a s
 
 ## Example
 
-Let's take a look at an example of a usage for a stack in C#, checking if a given expression has balanced parentheses.
+Let's take a look at an example of a usage for a stack in C#, going back to the plates metaphor from the intro.
 
-- Input: `((a + b) * (c - d))`
-  Output: Balanced
-
-- Input: `((a + b) * (c - d)`
-  Output: Not Balanced
+In this example, we can add a plate to the top using `Push`, see what the top plate was using `Peek`, and take the
+top plate off the top of the stack using `Pop`. We can also see how many plates are currently in the stack using
+an attribute of the plateStack called `Count`.
 
 ```csharp
-public static class MatchingParentheses {
-    public static bool CheckBalance(string line) {
-        var stack = new Stack<char>();
-        foreach (var item in line) {
-            if (item is '(') {
-                stack.Push(item);
-            }
-            else if (item is ')') {
-                if (stack.Count == 0 || stack.Pop() != '(') {
-                    return false;
-                }
-            }
-        }
-        return stack.Count == 0;
-    }
-}
-```
+private static void Main()
+    {
+        // Create a stack of plates
+        var plateStack = new Stack<string>();
 
-In this example, we could tell if the parentheses in the expression were balanced by adding the opening and closing
-parentheses to the stack and checking that each open parenthesis had a matching close parenthesis.
+        // Push plates onto the stack
+        plateStack.Push("Plate 1");
+        plateStack.Push("Plate 2");
+        plateStack.Push("Plate 3");
+
+        // Print information about the current state of the stack
+        Console.WriteLine("Top plate: " + plateStack.Peek());  // Plate 3
+        Console.WriteLine("Stack size: " + plateStack.Count);  // 3
+
+        // Take (pop) a plate off the stack
+        string removedPlate = plateStack.Pop();
+        Console.WriteLine("Removed plate: " + removedPlate);  // Plate 3
+        Console.WriteLine("Stack size after pop: " + plateStack.Count);  // 2
+    }
+```
 
 ## Problem to Solve: Postfix Expressions
 

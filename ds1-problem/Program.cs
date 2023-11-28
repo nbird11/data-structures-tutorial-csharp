@@ -2,7 +2,7 @@
 
 internal static class Problem
 {
-    private static int? EvaluateExpression(string expression)
+    internal static int? EvaluateExpression(string expression)
     {
         // TODO Initialize the stack for the operands
         
@@ -16,7 +16,7 @@ internal static class Problem
             }
             else
             {
-                // TODO If the character is an operator, pop two operands from the stack
+                // TODO If the character is an operator, pop the last two operands from the stack
                 
 
                 // TODO Perform the operation between the two operands
@@ -49,13 +49,16 @@ internal static class Problem
         
         return null;
     }
+}
 
+internal static class Tester
+{
     private static void Main()
     {
         const string expression1 = "23*5+";
         const string expression2 = "68+42/*";
 
-        Console.WriteLine($"Result of '{expression1}' is {EvaluateExpression(expression1)}");
-        Console.WriteLine($"Result of '{expression2}' is {EvaluateExpression(expression2)}");
+        Console.WriteLine($"Result of '{expression1}' is {Problem.EvaluateExpression(expression1)}");
+        Console.WriteLine($"Result of '{expression2}' is {Problem.EvaluateExpression(expression2)}");
     }
 }
