@@ -112,8 +112,8 @@ Write a C# function to reverse a given singly linked list.
 Example: 
 - Input:  1 -> 2 -> 3 -> 4 -> 5
 - Output: 5 -> 4 -> 3 -> 2 -> 1
-
-
+<br>
+<br>
 - Input: 4 -> 53 -> 26 -> 18 -> 7
 - Output 7 -> 18 -> 26 -> 53 -> 4
 
