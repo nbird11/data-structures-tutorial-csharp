@@ -82,7 +82,7 @@ returns the result of the expression.
 Example:
 - Input: "23*5+"
 - Output: 11 (Explanation: 2 * 3 + 5 => 6 + 5 = 11)
-<br>
+- 
 - Input: "68+42/*"
 - Output: 28 (Explanation: (6 + 8) * (4 / 2) => 14 * 2 = 28)
 
