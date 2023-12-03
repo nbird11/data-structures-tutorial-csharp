@@ -80,12 +80,12 @@ Implement a function EvaluatePostfixExpression that takes a string representing 
 returns the result of the expression.
 
 Example:
+- Input: "23*5+"
+- Output: 11 (Explanation: 2 * 3 + 5 => 6 + 5 = 11)
 
-Input: "23*5+"
-Output: 11 (Explanation: 2 * 3 + 5 => 6 + 5 = 11)
 
-Input: "68+42/*"
-Output: 28 (Explanation: (6 + 8) * (4 / 2) => 14 * 2 = 28)
+- Input: "68+42/*"
+- Output: 28 (Explanation: (6 + 8) * (4 / 2) => 14 * 2 = 28)
 
 You can check your code with the solution here: [Solution](ds1-solution/Program.cs)
 

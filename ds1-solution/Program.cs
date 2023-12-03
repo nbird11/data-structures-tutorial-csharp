@@ -1,6 +1,6 @@
 ﻿namespace ds1_solution;
 
-internal static class Solution
+internal static class StackSolution
 {
     private static int EvaluateExpression(string expression)
     {

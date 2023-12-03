@@ -1,8 +1,8 @@
 ﻿namespace ds1_problem;
 
-internal static class Problem
+internal static class StackProblem
 {
-    internal static int? EvaluateExpression(string expression)
+    private static int? EvaluateExpression(string expression)
     {
         // TODO Initialize the stack for the operands
         
@@ -49,16 +49,13 @@ internal static class Problem
         
         return null;
     }
-}
-
-internal static class Tester
-{
+    
     private static void Main()
     {
         const string expression1 = "23*5+";
         const string expression2 = "68+42/*";
 
-        Console.WriteLine($"Result of '{expression1}' is {Problem.EvaluateExpression(expression1)}");
-        Console.WriteLine($"Result of '{expression2}' is {Problem.EvaluateExpression(expression2)}");
+        Console.WriteLine($"Result of '{expression1}' is {EvaluateExpression(expression1)}");
+        Console.WriteLine($"Result of '{expression2}' is {EvaluateExpression(expression2)}");
     }
 }
