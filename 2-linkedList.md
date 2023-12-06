@@ -84,16 +84,16 @@ private static void Main()
     guestList.AddLast("Charlie");
 
     // Print information about the current state of the linked list
-    Console.WriteLine("First guest: " + guestList.First!.Value);  // Alice
-    Console.WriteLine("Last guest: " + guestList.Last!.Value);    // Charlie
+    Console.WriteLine("First guest: " + guestList.First.Value);  // Alice
+    Console.WriteLine("Last guest: " + guestList.Last.Value);    // Charlie
     Console.WriteLine("Number of guests: " + guestList.Count);   // 3
 
     // Insert a new guest in the middle
     var node = guestList.Find("Bob");
-    guestList.AddAfter(node!, "David");
+    guestList.AddAfter(node, "David");
 
     // Print updated information
-    Console.WriteLine("Guest after Bob: " + node!.Next!.Value);    // David
+    Console.WriteLine("Guest after Bob: " + node.Next.Value);    // David
     Console.WriteLine("Number of guests after insert: " + guestList.Count);  // 4
 
     // Remove a guest
