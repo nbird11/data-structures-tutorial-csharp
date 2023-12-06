@@ -33,10 +33,10 @@
 ## IV. Tree
 * Introduction
 * Structure
+  * Root
   * Node
     * Left Child
     * Right Child
-  * Root
 * Importance of balancing
 * Operations
   * Insertion
