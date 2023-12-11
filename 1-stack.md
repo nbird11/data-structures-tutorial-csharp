@@ -68,6 +68,14 @@ private static void Main()
     }
 ```
 
+Output:
+```csharp
+Top plate: Plate 3
+Stack size: 3
+Removed plate: Plate 3
+Stack size after pop: 2
+```
+
 ## Problem to Solve: Postfix Expressions
 
 Write a C# program to evaluate a given postfix expression.
@@ -85,6 +93,12 @@ Example:
 - 
 - Input: "68+42/*"
 - Output: 28 (Explanation: (6 + 8) * (4 / 2) => 14 * 2 = 28)
+
+Sample program output:
+```
+Result of '23*5+' is 11
+Result of '68+42/*' is 28
+```
 
 You can check your code with the solution here: [Solution](ds1-solution/Program.cs)
 

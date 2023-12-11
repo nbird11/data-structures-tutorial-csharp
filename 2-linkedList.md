@@ -105,6 +105,17 @@ private static void Main()
 }
 ```
 
+Output:
+```csharp
+First guest: Alice
+Last guest: Charlie
+Number of guests: 3
+Guest after Bob: David
+Number of guests after insert: 4
+Updated last guest: Charlie
+Number of guests after removal: 3
+```
+
 ## Problem to Solve: Reverse a Linked List
 
 Write a C# function to reverse a given singly linked list.
@@ -115,6 +126,14 @@ Example:
 - 
 - Input: 4 -> 53 -> 26 -> 18 -> 7
 - Output 7 -> 18 -> 26 -> 53 -> 4
+
+Sample program output:
+```csharp
+Original List: 1 -> 2 -> 3 -> 4 -> 5
+Reversed List: 5 -> 4 -> 3 -> 2 -> 1
+Original List: 4 -> 53 -> 26 -> 18 -> 7
+Reversed List: 7 -> 18 -> 26 -> 53 -> 4
+```
 
 Test your code by creating a linked list, displaying it, and then reversing it. Verify that the reversed linked list is correctly displayed.
 
