@@ -1,5 +1,7 @@
 # Stack
 
+![Stack diagram](./diagrams/stack.webp)
+
 ## Introduction
 
 Imagine a stack of plates where you always add a new plate to the top and remove the topmost plate when you need one –
