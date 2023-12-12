@@ -104,6 +104,6 @@ Result of '68+42/*' is 28
 
 You can check your code with the solution here: [Solution](./ds1-solution/Program.cs)
 
-<button style="float: right"><span style="text-align: right">[Next - Linked List](./2-linkedList.md)</span></button>
+<span style="float: right">[Next - Linked List](./2-linkedList.md)</span>
 <br>
 [Back to Welcome Page](./0-welcome.md)
