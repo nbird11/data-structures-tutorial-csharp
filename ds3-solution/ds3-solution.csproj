@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ds3-implementation\ds3-implementation.csproj" />
+  </ItemGroup>
+
 </Project>
