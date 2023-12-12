@@ -341,6 +341,12 @@ For example:
    / \
   D   E
   ```
+  
+  Output:
+
+  ```text
+  true
+  ```
 
 - Unbalanced Tree:
   ```text
@@ -352,6 +358,14 @@ For example:
          \
           E
   ```
+  
+  Output:
+
+  ```text
+  false
+  ```
+
+> Remember recursion and how it can make problems simpler. Hint: A tree is balanced if all it's nodes are balanced.
 
 Test your code by running Main in [ds3-problem](./ds3-problem/Program.cs)
 
