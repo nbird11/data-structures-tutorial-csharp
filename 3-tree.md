@@ -126,6 +126,8 @@ For example:
 
 Test your code by creating different trees and checking if they are balanced.
 
-You can check your code with the solution here: [Solution](ds3-solution/Program.cs)
+You can check your code with the solution here: [Solution](./ds3-solution/Program.cs)
 
-[Back to Welcome Page](0-welcome.md)
+<button>[Previous - Linked List](./2-linkedList.md)</button>
+
+[Back to Welcome Page](./0-welcome.md)

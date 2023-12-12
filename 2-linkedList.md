@@ -139,4 +139,6 @@ Test your code by creating a linked list, displaying it, and then reversing it. 
 
 You can check your code with the solution here: [Solution](ds2-solution/Program.cs)
 
+<button>[Previous - Stack](./1-stack.md)</button> <button style="float: right">[Next - Tree](./3-tree.md)</button>
+
 [Back to Welcome Page](0-welcome.md)

@@ -102,6 +102,8 @@ Result of '23*5+' is 11
 Result of '68+42/*' is 28
 ```
 
-You can check your code with the solution here: [Solution](ds1-solution/Program.cs)
+You can check your code with the solution here: [Solution](./ds1-solution/Program.cs)
 
-[Back to Welcome Page](0-welcome.md)
+<button style="float: right">[Next - Linked List](./2-linkedList.md)</button>
+<br>
+[Back to Welcome Page](./0-welcome.md)
