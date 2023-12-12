@@ -135,10 +135,10 @@ Original List: 4 -> 53 -> 26 -> 18 -> 7
 Reversed List: 7 -> 18 -> 26 -> 53 -> 4
 ```
 
-Test your code by creating a linked list, displaying it, and then reversing it. Verify that the reversed linked list is correctly displayed.
+Test your code by running Main in [ds2-problem](./ds2-problem/Program.cs)
 
-You can check your code with the solution here: [Solution](ds2-solution/Program.cs)
+You can check your code with the solution here: [Solution](./ds2-solution/Program.cs)
 
 {[Previous - Stack](./1-stack.md)} {[Next - Tree](./3-tree.md)}
 
-[Back to Welcome Page](0-welcome.md)
+[Back to Welcome Page](./0-welcome.md)
