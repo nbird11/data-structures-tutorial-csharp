@@ -1,5 +1,7 @@
 # Linked List
 
+![Singly Linked List](./diagrams/singlyLL.png)
+
 ## Introduction
 
 A linked list is a way of organizing information in a sequence, kind of like a chain of connected items. Each 'item' in
@@ -27,6 +29,8 @@ The `head` is the first 'item' (node) in the linked list. It serves as the entry
 The `tail` is the last node in the linked list. Its `next` reference is usually null, indicating the end of the list.
 (In doubly linked lists, it is also the entry point for reversed traversal of the 'items' [nodes]. In these cases, the
 `previous` reference of the `head` would be null to indicate the beginning of the list.)
+
+![Doubly Linked List](./diagrams/doublyLL2.jpeg)
 
 ## Operations
 
