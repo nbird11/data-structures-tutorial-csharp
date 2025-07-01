@@ -1,11 +1,23 @@
-# CSE 212 Final Project
+# C# Data Structures Tutorial
 
-1. Examine the requirements for the whole project at [W10 Prepare](https://byui-cse.github.io/cse212-csharp/lesson10/prepare)
-2. Look at the outline requirements [W10 Prove](https://byui-cse.github.io/cse212-csharp/lesson10/prove)
-3. Create your outline in the [outline.md](outline.md) file & submit it via canvas W10 Prove
-4. Create one of your data structure pages and submit the link for the W11 Prove
-5. Meet with your instructor to get feedback on your work so far either in class or via office appointment
-6. Create a second data structure page and submit the link for the W12 Prove
-7. Come to class for the W13 Peer Review - must be present to get credit for the peer review
-8. Make sure your tutorial has the [0-welcome.md](0-welcome.md) file (Example [here](https://github.com/byui-cse/cse212-csharp/blob/main/CSharpFundamentals/0-welcome.md)) to help me know where to start
-8. Submit your completed tutorial on the W14 Prove assignment by the last day of class
+## Intro
+
+Throughout the course of this tutorial, we will take a look at three different data structures that are common in many
+programming languages and apply their use cases to anyone! The objective is for the average Joe to be able to
+understand and be able to see these types of structures in their lives.
+
+## Modules
+
+- [Stack](./1-stack.md)
+- [Linked List](./2-linkedList.md)
+- [Tree](./3-tree.md)
+
+Each module will contain descriptions and examples. At the end of each module, you will find a problem to solve on your
+own. You should only look at the solution after you have attempted to solve the problem first.
+
+### Contact Info
+
+Please use the following information to direct any questions, comments, or concerns.
+
+Nathan Bird  
+[nathanbirdka@gmail.com](mailto:nathanbirdka@gmail.com)
